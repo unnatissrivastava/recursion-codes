@@ -9,3 +9,8 @@ int reverse(){
         temp /= 10;
     }
 }
+int main(){
+    printf("%d", reverse((15678)));
+    return 0;
+}
+  
