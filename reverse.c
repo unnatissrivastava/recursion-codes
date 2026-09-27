@@ -8,3 +8,4 @@ int reverse(){
         rev = rev*10+digit;
         temp /= 10;
     }
+}
