@@ -4,6 +4,6 @@ int sum(int n){
     return n+sum(n-1);
 }
 int main(){
-    sum(5);
+    printf("%d",sum(5));
     return 0;
 }
